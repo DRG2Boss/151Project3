@@ -4,10 +4,9 @@ arcade.open_window(1200, 900, "Master Chief Helmet")
 arcade.set_background_color(arcade.color.PURPLE)
 
 arcade.start_render()
-# My name:
+# My Name:
 author = arcade.Text("Isaiah Marshall", 25, 875, arcade.color.WHITE, 14)
 author.draw()
-
 # Halo Ring:
 arcade.draw_circle_outline(1200, 800, 600, arcade.color.BLUE_GRAY, 40)
 arcade.draw_circle_outline(1200, 800, 570, arcade.color.FOREST_GREEN, 20)
